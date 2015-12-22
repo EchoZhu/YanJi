@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- titile -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+    		android:layout_height="40dp"
+        android:background="@color/theme_color">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="注册" />
+
+        <ImageView
+            android:id="@+id/iv_back_regist2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/fanhuihui" />
+        
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/headview" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:windowSoftInputMode="adjustResize" >
+
+        <requestFocus />
+
+        <com.echo.yanji_view.EditTextWithDelete
+            android:id="@+id/et_setnickname"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="请输入昵称"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#bdbdbd"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <com.echo.yanji_view.EditTextWithDelete
+            android:id="@+id/et_chosegender"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_setnickname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="请输入性别（例如：女）"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#bdbdbd"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <com.echo.yanji_view.EditTextWithDelete
+            android:id="@+id/et_getage"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/et_chosegender"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="请输入年龄(例如：18)"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#bdbdbd"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et_getage"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="完成注册"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a2_regist2.xml -->

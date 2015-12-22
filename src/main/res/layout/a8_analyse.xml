@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "#e8e1f9"
+    android:orientation="vertical"
+	 >
+    <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="颜值分析"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back_analyse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/fanhuihui" />
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="439dp"
+	    android:background="#e8e1f9"
+		android:layout_weight="0.92"
+		 >
+
+
+
+
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_above="@+id/linearLayout1"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="10dp"
+		    android:orientation="vertical"
+		     >
+
+			<RelativeLayout
+			    android:layout_weight="1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+
+			    <com.echo.yanji_view.CircleProgressBar
+			        android:id="@+id/circleProgressbar1"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="19dp"
+			        android:gravity="center" />
+
+			    <TextView
+			        android:id="@+id/textView2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/circleProgressbar1"
+			        android:layout_marginLeft="19dp"
+			        android:layout_toRightOf="@+id/circleProgressbar1"
+			        android:textColor="@color/theme_color"
+			        android:text="色" />
+
+			    <TextView
+			        android:id="@+id/textView3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView2"
+			        android:layout_below="@+id/textView2"
+			        android:textSize="10sp"
+			        android:text="解释说明" />
+
+			    <TextView
+			        android:id="@+id/textView4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/circleProgressbar1"
+			        android:layout_alignLeft="@+id/textView3"
+			        android:textSize="10sp"
+			        android:text="这里显示的是解释说明的内容" />
+
+			</RelativeLayout>
+			<View 
+			    android:layout_width="match_parent"
+			    android:layout_height="1dp"
+			    android:background="@color/white"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    />
+			<RelativeLayout
+			    android:layout_weight="1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+
+			    <com.echo.yanji_view.CircleProgressBar
+			        android:id="@+id/circleProgressbar2"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="19dp"
+			        android:gravity="center" />
+
+			    <TextView
+			        android:id="@+id/textView22"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/circleProgressbar2"
+			        android:layout_marginLeft="19dp"
+			        android:layout_toRightOf="@+id/circleProgressbar2"
+			        android:textColor="@color/theme_color"
+			        android:text="质" />
+
+			    <TextView
+			        android:id="@+id/textView33"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView22"
+			        android:layout_below="@+id/textView22"
+			        android:textSize="10sp"
+			        android:text="解释说明" />
+
+			    <TextView
+			        android:id="@+id/textView44"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/circleProgressbar2"
+			        android:layout_alignLeft="@+id/textView33"
+			        android:textSize="10sp"
+			        android:text="这里显示的是解释说明的内容" />
+
+			</RelativeLayout>
+			<View 
+			    android:layout_width="match_parent"
+			    android:layout_height="1dp"
+			    android:background="@color/white"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    />
+			<RelativeLayout
+			    android:layout_weight="1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+
+			    <com.echo.yanji_view.CircleProgressBar
+			        android:id="@+id/circleProgressbar3"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="19dp"
+			        android:gravity="center" />
+
+			    <TextView
+			        android:id="@+id/textView222"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/circleProgressbar3"
+			        android:layout_marginLeft="19dp"
+			        android:layout_toRightOf="@+id/circleProgressbar3"
+			        android:textColor="@color/theme_color"
+			        android:text="润" />
+
+			    <TextView
+			        android:id="@+id/textView333"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView222"
+			        android:layout_below="@+id/textView222"
+			        android:textSize="10sp"
+			        android:text="解释说明" />
+
+			    <TextView
+			        android:id="@+id/textView444"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/circleProgressbar3"
+			        android:layout_alignLeft="@+id/textView333"
+			        android:textSize="10sp"
+			        android:text="这里显示的是解释说明的内容" />
+
+			</RelativeLayout>
+			<View 
+			    android:layout_width="match_parent"
+			    android:layout_height="1dp"
+			    android:background="@color/white"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    />
+			<RelativeLayout
+			    android:layout_weight="1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+
+			    <com.echo.yanji_view.CircleProgressBar
+			        android:id="@+id/circleProgressbar4"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="19dp"
+			        android:gravity="center" />
+
+			    <TextView
+			        android:id="@+id/textView2222"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/circleProgressbar4"
+			        android:layout_marginLeft="19dp"
+			        android:layout_toRightOf="@+id/circleProgressbar4"
+			        android:textColor="@color/theme_color"
+			        android:text="泽" />
+
+			    <TextView
+			        android:id="@+id/textView3333"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView2222"
+			        android:layout_below="@+id/textView2222"
+			        android:textSize="10sp"
+			        android:text="解释说明" />
+
+			    <TextView
+			        android:id="@+id/textView4444"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/circleProgressbar4"
+			        android:layout_alignLeft="@+id/textView3333"
+			        android:textSize="10sp"
+			        android:text="这里显示的是解释说明的内容" />
+
+			</RelativeLayout>
+			<View 
+			    android:layout_width="match_parent"
+			    android:layout_height="1dp"
+			    android:background="@color/white"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    />
+			<RelativeLayout
+			    android:layout_weight="1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent">
+
+			    <com.echo.yanji_view.CircleProgressBar
+			        android:id="@+id/circleProgressbar5"
+			        android:layout_width="50dp"
+			        android:layout_height="50dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="19dp"
+			        android:gravity="center" />
+
+			    <TextView
+			        android:id="@+id/textView22222"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/circleProgressbar5"
+			        android:layout_marginLeft="19dp"
+			        android:layout_toRightOf="@+id/circleProgressbar5"
+			        android:textColor="@color/theme_color"
+			        android:text="气血" />
+
+			    <TextView
+			        android:id="@+id/textView33333"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/textView22222"
+			        android:layout_below="@+id/textView22222"
+			        android:textSize="10sp"
+			        android:text="解释说明" />
+
+			    <TextView
+			        android:id="@+id/textView44444"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignBottom="@+id/circleProgressbar5"
+			        android:layout_alignLeft="@+id/textView33333"
+			        android:textSize="10sp"
+			        android:text="这里显示的是解释说明的内容" />
+
+			</RelativeLayout>
+			<View 
+			    android:layout_width="match_parent"
+			    android:layout_height="1dp"
+			    android:background="@color/white"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    />
+		</LinearLayout>
+
+
+	</RelativeLayout>
+
+	<Button
+		android:id="@+id/btn_getSolution"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/btn_getyanzhi_selector"
+        android:textColor="@color/white"
+		android:text="解决方案"
+		android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		android:layout_marginBottom="20dp"
+		/>
+
+</LinearLayout>

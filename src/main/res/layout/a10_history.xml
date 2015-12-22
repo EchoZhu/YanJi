@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.echo.yanji.A10_history">
+
+    <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="历史数据"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/relativeLayout"
+    android:background="@color/white"
+    android:id="@+id/scrollView">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#fafafa"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/relativeLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Year"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_shape_themecolor_small_focused"
+                android:textSize="18sp"
+                android:id="@+id/tv_year"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Month"
+                android:background="@drawable/btn_shape_themecolor_small_focused"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:id="@+id/tv_month"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/tv_year"
+                android:layout_toStartOf="@+id/tv_year"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Week"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:id="@+id/tv_week"
+                android:background="@drawable/btn_shape_themecolor_small_rectangle"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/tv_month"
+                android:layout_toStartOf="@+id/tv_month" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#fafafa"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_year"
+                >
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="色"
+                android:background="@color/theme_color"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:id="@+id/tv_color" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="质"
+                android:textColor="@color/white"
+                android:background="#d99df4"
+                android:textSize="20sp"
+                android:id="@+id/tv_zhi" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="润"
+                android:textColor="@color/white"
+                android:background="#d99df4"
+                android:textSize="20sp"
+                android:id="@+id/tv_run" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="泽"
+                android:textColor="@color/white"
+                android:background="#d99df4"
+                android:textSize="20sp"
+                android:id="@+id/tv_ze" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="气血"
+                android:textColor="@color/white"
+                android:background="#d99df4"
+                android:textSize="20sp"
+                android:id="@+id/tv_qixue" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="分享 >"
+        android:textColor="@color/white"
+        android:id="@+id/btn_share"
+        android:background="@drawable/btn_getyanzhi_selector"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp" />
+
+
+</RelativeLayout>

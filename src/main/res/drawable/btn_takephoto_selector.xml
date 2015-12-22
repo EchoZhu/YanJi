@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item 
+       android:radius="5px"
+       android:state_focused="false" 
+       android:state_pressed="false" 
+       android:drawable="@drawable/btn_shape_white_stroke_small" />
+   <item 
+       android:radius="5px"
+       android:state_pressed="true" 
+       android:drawable="@drawable/btn_shape_white_stroke_small_focused" />
+    <item 
+        android:radius="5px"
+        android:state_focused="true" 
+        android:drawable="@drawable/btn_shape_white_stroke_small_focused" />
+</selector>

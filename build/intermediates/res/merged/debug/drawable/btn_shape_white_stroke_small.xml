@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"  >  
+    <solid android:color="@android:color/transparent" />  
+    <corners  
+       android:topLeftRadius="5dip"  
+       android:topRightRadius="5dip"  
+       android:bottomLeftRadius="5dip"  
+       android:bottomRightRadius="5dip" /> 
+    <padding 
+        android:left="30dp"
+        android:right="30dp"
+        android:top="5dp"
+        android:bottom="5dp" />   
+    <stroke  
+	    android:width="2dp"  
+		android:color="#ffffff" />  
+ </shape>  
+<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/drawable/btn_shape_white_stroke_small.xml -->

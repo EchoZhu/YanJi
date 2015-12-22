@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- titile -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+    		android:layout_height="40dp"
+        android:background="@color/theme_color">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="注册" />
+
+        <ImageView
+            android:id="@+id/iv_back_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/fanhuihui" />
+        
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/headview" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:windowSoftInputMode = "adjustResize"
+        android:background="@color/white" >
+
+      <TextView
+          android:id="@+id/tv_getverifycode"
+          android:layout_width="wrap_content"
+          android:layout_height="40dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/et_getverifycode"
+          android:layout_marginRight="10dp"
+          android:layout_marginLeft="5dp"
+          android:background="@color/white"
+          android:textColor="@color/theme_color"
+          android:gravity="center_vertical"
+          android:text="获取验证码" />
+ 		<requestFocus />
+
+<com.echo.yanji_view.EditTextWithDelete
+    android:id="@+id/et_getphonenumber_r"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/bg_edittext"
+    android:ems="10"
+    android:gravity="center_vertical"
+    android:hint="请输入手机号码注册"
+    android:inputType="phone"
+    android:singleLine="true"
+    android:textColor="#000"
+    android:textColorHint="#bdbdbd"
+    android:textCursorDrawable="@null"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="15sp" />
+
+<com.echo.yanji_view.EditTextWithDelete
+    android:id="@+id/et_setpwd1"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/et_getphonenumber_r"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bg_edittext"
+    android:ems="10"
+    android:gravity="center_vertical"
+    android:hint="请输入密码"
+    android:password="true"
+    android:singleLine="true"
+    android:textColor="#000"
+    android:textColorHint="#bdbdbd"
+    android:textCursorDrawable="@null"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="15sp" />
+
+<com.echo.yanji_view.EditTextWithDelete
+    android:id="@+id/et_setpwd2"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/et_setpwd1"
+    android:background="@drawable/bg_edittext"
+    android:ems="10"
+    android:gravity="center_vertical"
+    android:hint="请再次输入密码"
+    android:password="true"
+    android:singleLine="true"
+    android:textColor="#000"
+    android:textColorHint="#bdbdbd"
+    android:layout_marginTop="2dp"
+    android:textCursorDrawable="@null"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="15sp" />
+
+<com.echo.yanji_view.EditTextWithDelete
+    android:id="@+id/et_getverifycode"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/et_setpwd2"
+    android:layout_marginTop="10dp"
+    android:layout_toLeftOf="@+id/tv_getverifycode"
+    android:background="@drawable/bg_edittext"
+    android:ems="10"
+    android:gravity="center_vertical"
+    android:hint="请输入验证码"
+    android:inputType="phone"
+    android:singleLine="true"
+    android:textColor="#000"
+    android:textColorHint="#bdbdbd"
+    android:textCursorDrawable="@null"
+    android:layout_marginLeft="10dp"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/btn_nextstep"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/tv_getverifycode"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/btn_login_selector"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="下一步"
+    android:textColor="#fff"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="18sp" />
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground" 
+    android:orientation="vertical" >
+
+    <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="颜迹"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_headtag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/headtag" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1.00" >
+
+        <Button
+            android:id="@+id/btn_setwifi"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_conect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_setwifi_selector"
+            android:textColor="@color/white"
+            android:text="进入设置，设置wifi" />
+
+        <Button
+            android:id="@+id/btn_conect"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_setwifi"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/btn_conect_selector"
+            android:text="连接我的硬件"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_mycolor"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/grey"-->
+            <!--android:gravity="center"-->
+            <!--android:text="我颜" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_myhistory"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/theme_color"-->
+            <!--android:text="历史"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/white" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical" >
+     <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="颜迹"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_myinfo_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/headtag" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<!-- 自定义圆形头像 -->
+	<RelativeLayout
+	    android:layout_below="@+id/btn_takephoto" 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+	    >
+
+		<ImageView
+		    android:id="@+id/iv_pic_a"
+		    android:layout_width="80dp"
+		    android:layout_height="80dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="30dp"
+		    android:layout_marginTop="35dp"
+		    android:src="@mipmap/photo" />
+
+		<ImageView
+		    android:id="@+id/iv_pic_b"
+		    android:layout_width="80dp"
+		    android:layout_height="80dp"
+		    android:layout_alignTop="@+id/iv_pic_a"
+		    android:layout_centerHorizontal="true"
+		    android:src="@mipmap/photo" />
+
+		<ImageView
+		    android:id="@+id/iv_pic_c"
+		    android:layout_width="80dp"
+		    android:layout_height="80dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignTop="@+id/iv_pic_a"
+		    android:layout_marginRight="30dp"
+		    android:src="@mipmap/photo" />
+
+		<TextView
+		    android:id="@+id/TextView01"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/iv_pic_b"
+		    android:layout_alignTop="@+id/textView2"
+		    android:layout_marginLeft="10dp"
+		    android:text="第二张" />
+
+
+
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/iv_pic_a"
+    android:layout_below="@+id/iv_pic_a"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:text="第一张" />
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/TextView01"
+    android:layout_alignBottom="@+id/TextView01"
+    android:layout_alignLeft="@+id/iv_pic_c"
+    android:layout_marginLeft="10dp"
+    android:text="第三张" />
+
+<TextView
+    android:id="@+id/tv_tips"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/TextView01"
+    android:layout_marginTop="24dp"
+    android:text="建议选择额头，眼角和脸颊三个位置拍照" />
+
+<Button
+    android:id="@+id/btn_getyanzhi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/TextView01"
+    android:background="@drawable/btn_getyanzhi_selector"
+    android:layout_marginTop="20dp"
+    android:visibility="invisible"
+    android:text="获取颜值 >"
+    android:textColor = "@color/white"
+    android:textSize="18sp" />
+
+	</RelativeLayout>
+
+	<com.echo.yanji_view.RoundImageView
+	    android:id="@+id/iv_mirror"
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="32dp"
+	    android:src="@mipmap/mirror" />
+	<com.echo.yanji_view.RoundImageView
+	    android:id="@+id/iv_mirror1"
+	    android:layout_width="50dp"
+	    android:layout_height="50dp"
+        android:background="@mipmap/mirror"
+        android:layout_alignTop="@+id/iv_mirror"
+        android:layout_toRightOf="@+id/iv_mirror"
+        android:layout_toEndOf="@+id/iv_mirror" />
+
+	<Button
+	    android:id="@+id/btn_takephoto"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/iv_mirror"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="16dp"
+	    android:background="@drawable/btn_takephoto_selector"
+	    android:text="拍照"
+	    android:textColor="@color/white" />
+
+</RelativeLayout>
+</LinearLayout><!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a6_test.xml -->

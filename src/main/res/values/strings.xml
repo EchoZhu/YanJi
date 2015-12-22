@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">颜迹</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_a10_history">A10_history</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="network_not_connected">网络不给力</string>
+
+    <string name="spiderwebchart_title1">色</string>
+    <string name="spiderwebchart_title2">质</string>
+    <string name="spiderwebchart_title3">润</string>
+    <string name="spiderwebchart_title4">泽</string>
+    <string name="spiderwebchart_title5">气血</string>
+</resources>

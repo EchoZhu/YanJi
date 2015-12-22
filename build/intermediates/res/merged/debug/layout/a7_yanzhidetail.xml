@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="颜迹"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back_yanzhidetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/fanhuihui" />
+
+        <ImageView
+            android:id="@+id/iv_headtag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/headtag" />
+    </RelativeLayout>
+
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" >
+
+
+			<!-- 折线图 -->
+
+			<RelativeLayout
+				android:id="@+id/rl_table"
+				android:layout_width="match_parent"
+				android:layout_height="300dp"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="30dp"
+				android:background="#fafafa" >
+
+				<com.echo.yanji_view.SpiderWebChart
+					android:id="@+id/spiderWebChart"
+					android:layout_width="match_parent"
+					android:layout_height="300dp"
+					android:layout_centerHorizontal="true"
+					android:background="@color/white" />
+
+				<TableLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_alignParentTop="true"
+					android:layout_centerHorizontal="true"></TableLayout>
+			</RelativeLayout>
+			<!-- 颜值其他四个元素 -->
+
+
+			<Button
+				android:id="@+id/btn_getAnalyse"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_getyanzhi_selector"
+				android:textSize="18sp"
+				android:textColor = "@color/white"
+				android:text="听听颜值管家的分析 >"
+				android:layout_marginBottom="41dp"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				 />
+
+
+
+		</RelativeLayout>
+
+
+</LinearLayout>
+<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a7_yanzhidetail.xml -->

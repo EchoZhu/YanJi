@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- titile -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme_color" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="解决方案"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_back_solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/fanhuihui" />
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/home" />
+    </RelativeLayout>
+    
+	<RelativeLayout 
+	     	android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        android:background="#f5ddee">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--产品建议-->
+             <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="150dp"
+                     android:layout_marginTop="30dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:background="@drawable/btn_shape_white_stroke_large"
+                     android:id="@+id/rl_recommend_product">
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="产品建议 >"
+                     android:id="@+id/tv_recommend_product"
+                     android:layout_alignParentTop="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginStart="25dp"
+                     android:textColor="@color/white"
+                     android:background="@drawable/btn_shape_themecolor_small"
+                     android:layout_marginTop="10dp" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="解释说明"
+                     android:id="@+id/tv_recommend_product_detail"
+                     android:layout_below="@+id/tv_recommend_product"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginLeft="15dp"
+                     android:textColor="@color/black"
+                     android:textSize="14sp"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true" />
+
+             </RelativeLayout>
+            <!--饮食建议-->
+             <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="150dp"
+                     android:layout_marginTop="30dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:background="@drawable/btn_shape_white_stroke_large"
+                     android:id="@+id/rl_recommend_diet">
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="饮食建议 >"
+                     android:id="@+id/tv_recommend_diet"
+                     android:layout_alignParentTop="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginStart="25dp"
+                     android:textColor="@color/white"
+                     android:background="@drawable/btn_shape_themecolor_small"
+                     android:layout_marginTop="10dp" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="解释说明"
+                     android:id="@+id/tv_recommend_diet_detail"
+                     android:layout_below="@+id/tv_recommend_diet"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginLeft="15dp"
+                     android:textColor="@color/black"
+                     android:textSize="14sp"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true" />
+
+             </RelativeLayout>
+            <!--生活建议-->
+             <RelativeLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="150dp"
+                     android:layout_marginTop="30dp"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:background="@drawable/btn_shape_white_stroke_large"
+                     android:id="@+id/rl_recommend_live">
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="生活建议 >"
+                     android:id="@+id/tv_recommend_live"
+                     android:layout_alignParentTop="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginStart="25dp"
+                     android:textColor="@color/white"
+                     android:background="@drawable/btn_shape_themecolor_small"
+                     android:layout_marginTop="10dp" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="解释说明"
+                     android:id="@+id/tv_recommend_live_detail"
+                     android:layout_below="@+id/tv_recommend_live"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginLeft="15dp"
+                     android:textColor="@color/black"
+                     android:textSize="14sp"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true" />
+
+             </RelativeLayout>
+
+
+        </LinearLayout>
+
+        </ScrollView>
+	</RelativeLayout>
+</LinearLayout>
+<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a9_solution.xml -->
