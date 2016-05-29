@@ -56,7 +56,7 @@
 				android:layout_marginTop="30dp"
 				android:background="#fafafa" >
 
-				<com.echo.yanji_view.SpiderWebChart
+				<com.echo.view.SpiderWebChart
 					android:id="@+id/spiderWebChart"
 					android:layout_width="match_parent"
 					android:layout_height="300dp"

@@ -52,6 +52,17 @@
 		    android:layout_marginLeft="30dp"
 		    android:layout_marginTop="35dp"
 		    android:src="@mipmap/photo" />
+        <ImageView
+            android:id="@+id/iv_delete_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_pic_a"
+            android:layout_alignTop="@+id/iv_pic_a"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-6dp"
+            android:src="@mipmap/iv_delete"
+            android:visibility="gone"
+            />
 
 		<ImageView
 		    android:id="@+id/iv_pic_b"
@@ -60,6 +71,17 @@
 		    android:layout_alignTop="@+id/iv_pic_a"
 		    android:layout_centerHorizontal="true"
 		    android:src="@mipmap/photo" />
+        <ImageView
+            android:id="@+id/iv_delete_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_pic_b"
+            android:layout_alignTop="@+id/iv_pic_b"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-6dp"
+            android:src="@mipmap/iv_delete"
+            android:visibility="gone"
+            />
 
 		<ImageView
 		    android:id="@+id/iv_pic_c"
@@ -69,6 +91,17 @@
 		    android:layout_alignTop="@+id/iv_pic_a"
 		    android:layout_marginRight="30dp"
 		    android:src="@mipmap/photo" />
+        <ImageView
+            android:id="@+id/iv_delete_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_pic_c"
+            android:layout_alignTop="@+id/iv_pic_c"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="-6dp"
+            android:src="@mipmap/iv_delete"
+            android:visibility="gone"
+            />
 
 		<TextView
 		    android:id="@+id/TextView01"
@@ -126,7 +159,7 @@
 
 	</RelativeLayout>
 
-	<com.echo.yanji_view.RoundImageView
+	<com.echo.view.RoundImageView
 	    android:id="@+id/iv_mirror"
 	    android:layout_width="150dp"
 	    android:layout_height="150dp"
@@ -134,14 +167,16 @@
 	    android:layout_centerHorizontal="true"
 	    android:layout_marginTop="32dp"
 	    android:src="@mipmap/mirror" />
-	<com.echo.yanji_view.RoundImageView
+	<com.echo.view.RoundImageView
 	    android:id="@+id/iv_mirror1"
 	    android:layout_width="50dp"
 	    android:layout_height="50dp"
         android:background="@mipmap/mirror"
         android:layout_alignTop="@+id/iv_mirror"
         android:layout_toRightOf="@+id/iv_mirror"
-        android:layout_toEndOf="@+id/iv_mirror" />
+        android:layout_toEndOf="@+id/iv_mirror"
+        android:visibility="gone"
+        />
 
 	<Button
 	    android:id="@+id/btn_takephoto"
@@ -155,4 +190,4 @@
 	    android:textColor="@color/white" />
 
 </RelativeLayout>
-</LinearLayout><!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a6_test.xml -->
+</LinearLayout>

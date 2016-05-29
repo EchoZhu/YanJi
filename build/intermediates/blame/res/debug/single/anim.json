@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_top_in2.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_top_in2.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_out_from_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/hold_long.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/hold_long.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/success_mask_layout.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/success_mask_layout.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/success_bow_roate.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/success_bow_roate.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/zoom_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/zoom_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/in_from_right.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/in_from_right.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_top_out2.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_top_out2.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_top_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_top_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_top_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_top_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/activity_close_out_anim.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/activity_close_out_anim.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/activity_close_in_anim.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/activity_close_in_anim.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_fade_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/zoom_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/zoom_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/error_x_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/error_x_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_shareboard_animation_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/activity_open_out_anim.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/activity_open_out_anim.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_bottom_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/activity_open_in_anim.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/activity_open_in_anim.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/modal_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/modal_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/modal_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/modal_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_shareboard_animation_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/head_in.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/head_in.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/head_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/head_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/hold.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/hold.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_fade_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/out_to_left.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/out_to_left.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/umeng_socialize_slide_in_from_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/push_bottom_out.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_out_bottom.xml"
+    }
+]

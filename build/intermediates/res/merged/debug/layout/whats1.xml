@@ -5,4 +5,4 @@
     android:layout_height="fill_parent"
     android:background="@mipmap/w1"
   >
-</RelativeLayout><!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/whats1.xml -->
+</RelativeLayout>

@@ -9,4 +9,4 @@
     android:duration="300"
     android:fillAfter="true"
     android:startOffset="215">
-</rotate><!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/anim/success_bow_roate.xml -->
+</rotate>

@@ -208,4 +208,5 @@
     
     <color name="btn_login_yellow">#ffd946</color>
     <color name="theme_color">#a78aec</color>
+    <color name="background">#e8e1f9</color>
 </resources>

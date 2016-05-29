@@ -15,4 +15,3 @@
         android:state_focused="true" 
         android:drawable="@color/dialog_button_grey" />
 </selector>
-<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/drawable/btn_login_selector.xml -->

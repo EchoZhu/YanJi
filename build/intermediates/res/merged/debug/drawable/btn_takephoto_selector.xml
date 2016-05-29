@@ -15,4 +15,3 @@
         android:state_focused="true" 
         android:drawable="@drawable/btn_shape_white_stroke_small_focused" />
 </selector>
-<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/drawable/btn_takephoto_selector.xml -->

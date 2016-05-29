@@ -43,9 +43,10 @@
             android:id="@+id/btn_setwifi"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btn_conect"
+            android:layout_alignParentTop="true"
+
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="120dp"
             android:background="@drawable/btn_setwifi_selector"
             android:textColor="@color/white"
             android:text="进入设置，设置wifi" />
@@ -55,12 +56,22 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/btn_setwifi"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="102dp"
+
+            android:layout_marginTop="50dp"
             android:background="@drawable/btn_conect_selector"
+            android:layout_below="@+id/btn_start_service"
             android:text="连接我的硬件"
             android:textColor="@color/white" />
-
+        <Button
+            android:id="@+id/btn_start_service"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_setwifi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_setwifi_selector"
+            android:textColor="@color/white"
+            android:text="我确认已经链接到了摄像头" />
     </RelativeLayout>
 
     <!--<LinearLayout-->

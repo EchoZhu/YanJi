@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.echo.yanji"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.RESTART_PACKAGES" />
@@ -22,29 +22,45 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar" >
+        android:theme="@android:style/Theme.NoTitleBar">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.echo.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+
         </activity>
-        <activity android:name=".A0_welcome" />
-        <activity android:name=".A1_login" />
-        <activity android:name=".A2_regist" />
-        <activity android:name=".A2_regist2" />
-        <activity android:name=".A3_forgetpwd" />
-        <activity android:name=".A4_conect" />
-        <activity android:name=".A5_myinfo" />
-        <activity android:name=".A6_test" />
-        <activity android:name=".A7_yanzhidetail" />
-        <activity android:name=".A8_analyse" />
-        <activity android:name=".A9_solution" />
-        <activity android:name=".A10_history" />
-        <activity android:name=".B0_table" />
+        <activity android:name="com.echo.activity.WelcomeActivity" />
+        <activity android:name="com.echo.activity.A1_login" />
+        <activity android:name="com.echo.activity.A2_regist" />
+        <activity android:name="com.echo.activity.A2_regist2" />
+        <activity android:name="com.echo.activity.A3_forgetpwd" />
+        <activity android:name="com.echo.activity.A4_conect">
+
+
+        </activity>>
+
+
+        <activity android:name="com.echo.activity.A5_myinfo" />
+
+        <activity android:name="com.echo.activity.A6_test">
+
+        </activity>>
+
+
+        <activity android:name="com.echo.activity.A7_yanzhidetail" />
+        <activity android:name="com.echo.activity.A8_analyse" />
+        <activity android:name="com.echo.activity.A9_solution" />
+        <activity android:name="com.echo.activity.A10_history" />
+        <activity android:name="com.echo.activity.B0_table">
+
+
+        </activity>>
         <!-- ###################注册SDK使用的Activity###################### -->
         <!--分享编辑页-->
         <activity
@@ -53,14 +69,13 @@
             android:launchMode="singleTask"
             android:noHistory="true"
             android:theme="@style/Theme.UMDialog"
-            android:windowSoftInputMode="stateVisible|adjustResize" >
-        </activity>
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
 
         <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
         <activity
             android:name="com.tencent.tauth.AuthActivity"
             android:launchMode="singleTask"
-            android:noHistory="true" >
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -70,23 +85,23 @@
                 <data android:scheme="tencent100424468" />
             </intent-filter>
         </activity>
-        <activity android:name="com.tencent.connect.common.AssistActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:screenOrientation="portrait">
-        </activity>
         <activity
-            android:name="com.echo.yanji_utils.WXEntryActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="com.echo.utils.WXEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
 
         <!-- ###################添加UmengAppkey###################### -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="56386c1067e58e3cb5001465" >
-        </meta-data>
+            android:value="56386c1067e58e3cb5001465"></meta-data>
+        <service android:name="com.echo.service.HeartbeatService" />
     </application>
 
 </manifest>

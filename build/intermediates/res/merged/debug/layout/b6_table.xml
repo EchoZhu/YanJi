@@ -69,4 +69,4 @@
         android:layout_above="@+id/radiogroup" >
     </FrameLayout>
 </RelativeLayout>
-</TabHost><!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/b6_table.xml -->
+</TabHost>

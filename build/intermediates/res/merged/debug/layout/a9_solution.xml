@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:orientation="vertical" >
     <!-- titile -->
 
@@ -42,7 +43,7 @@
 	<RelativeLayout 
 	     	android:layout_width="match_parent"
 	        android:layout_height="match_parent" 
-	        android:background="#f5ddee">
+	        android:background="@color/background">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -79,7 +80,7 @@
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textAppearance="?android:attr/textAppearanceLarge"
-                     android:text="解释说明"
+                     android:text="建议您使用A产品"
                      android:id="@+id/tv_recommend_product_detail"
                      android:layout_below="@+id/tv_recommend_product"
                      android:layout_marginTop="5dp"
@@ -119,7 +120,7 @@
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textAppearance="?android:attr/textAppearanceLarge"
-                     android:text="解释说明"
+                     android:text="建议您多食用粗粮，搭配水果"
                      android:id="@+id/tv_recommend_diet_detail"
                      android:layout_below="@+id/tv_recommend_diet"
                      android:layout_marginTop="5dp"
@@ -159,7 +160,7 @@
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textAppearance="?android:attr/textAppearanceLarge"
-                     android:text="解释说明"
+                     android:text="建议您按时作息，维持良好生活习惯"
                      android:id="@+id/tv_recommend_live_detail"
                      android:layout_below="@+id/tv_recommend_live"
                      android:layout_marginTop="5dp"
@@ -177,4 +178,3 @@
         </ScrollView>
 	</RelativeLayout>
 </LinearLayout>
-<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a9_solution.xml -->

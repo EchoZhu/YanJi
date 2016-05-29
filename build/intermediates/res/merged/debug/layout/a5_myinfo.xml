@@ -54,7 +54,7 @@
 		    android:layout_marginTop="40dp"
 		    android:src="@drawable/headtagdefault" /> -->
 <!-- 自定义圆形头像 -->
-		<com.echo.yanji_view.RoundImageView
+		<com.echo.view.RoundImageView
 		    android:id="@+id/iv_headtag"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
@@ -327,4 +327,3 @@
     				android:layout_marginRight="20dp"/>
 	</RelativeLayout>
 </LinearLayout>
-<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a5_myinfo.xml -->

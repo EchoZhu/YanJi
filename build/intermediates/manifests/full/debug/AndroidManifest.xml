@@ -24,27 +24,34 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="com.echo.yanji.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.echo.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.echo.yanji.A0_welcome" />
-        <activity android:name="com.echo.yanji.A1_login" />
-        <activity android:name="com.echo.yanji.A2_regist" />
-        <activity android:name="com.echo.yanji.A2_regist2" />
-        <activity android:name="com.echo.yanji.A3_forgetpwd" />
-        <activity android:name="com.echo.yanji.A4_conect" />
-        <activity android:name="com.echo.yanji.A5_myinfo" />
-        <activity android:name="com.echo.yanji.A6_test" />
-        <activity android:name="com.echo.yanji.A7_yanzhidetail" />
-        <activity android:name="com.echo.yanji.A8_analyse" />
-        <activity android:name="com.echo.yanji.A9_solution" />
-        <activity android:name="com.echo.yanji.A10_history" />
-        <activity android:name="com.echo.yanji.B0_table" />
+        <activity android:name="com.echo.activity.A0_welcome" />
+        <activity android:name="com.echo.activity.A1_login" />
+        <activity android:name="com.echo.activity.A2_regist" />
+        <activity android:name="com.echo.activity.A2_regist2" />
+        <activity android:name="com.echo.activity.A3_forgetpwd" />
+        <activity android:name="com.echo.activity.A4_conect" >
+        </activity>
+>
+        <activity android:name="com.echo.activity.A5_myinfo" />
+        <activity android:name="com.echo.activity.A6_test" >
+        </activity>
+>
+        <activity android:name="com.echo.activity.A7_yanzhidetail" />
+        <activity android:name="com.echo.activity.A8_analyse" />
+        <activity android:name="com.echo.activity.A9_solution" />
+        <activity android:name="com.echo.activity.A10_history" />
+        <activity android:name="com.echo.activity.B0_table" >
+        </activity>
+>
         <!-- ###################注册SDK使用的Activity###################### -->
         <!-- 分享编辑页 -->
         <activity
@@ -53,8 +60,7 @@
             android:launchMode="singleTask"
             android:noHistory="true"
             android:theme="@style/Theme.UMDialog"
-            android:windowSoftInputMode="stateVisible|adjustResize" >
-        </activity>
+            android:windowSoftInputMode="stateVisible|adjustResize" />
 
         <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
         <activity
@@ -73,10 +79,9 @@
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
-            android:name="com.echo.yanji_utils.WXEntryActivity"
+            android:name="com.echo.utils.WXEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:screenOrientation="portrait"
@@ -85,8 +90,9 @@
         <!-- ###################添加UmengAppkey###################### -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="56386c1067e58e3cb5001465" >
-        </meta-data>
+            android:value="56386c1067e58e3cb5001465" />
+
+        <service android:name="com.echo.service.HeartbeatService" />
     </application>
 
 </manifest>

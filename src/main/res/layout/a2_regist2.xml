@@ -44,7 +44,7 @@
 
         <requestFocus />
 
-        <com.echo.yanji_view.EditTextWithDelete
+        <com.echo.view.EditTextWithDelete
             android:id="@+id/et_setnickname"
             android:layout_width="fill_parent"
             android:layout_height="40dp"
@@ -62,7 +62,7 @@
             android:textCursorDrawable="@null"
             android:textSize="15sp" />
 
-        <com.echo.yanji_view.EditTextWithDelete
+        <com.echo.view.EditTextWithDelete
             android:id="@+id/et_chosegender"
             android:layout_width="fill_parent"
             android:layout_height="40dp"
@@ -81,7 +81,7 @@
             android:textCursorDrawable="@null"
             android:textSize="15sp" />
 
-        <com.echo.yanji_view.EditTextWithDelete
+        <com.echo.view.EditTextWithDelete
             android:id="@+id/et_getage"
             android:layout_width="fill_parent"
             android:layout_height="40dp"

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background= "#e8e1f9"
+    android:background= "@color/background"
     android:orientation="vertical"
 	 >
     <!-- titile -->
@@ -57,7 +57,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="match_parent">
 
-			    <com.echo.yanji_view.CircleProgressBar
+			    <com.echo.view.CircleProgressBar
 			        android:id="@+id/circleProgressbar1"
 			        android:layout_width="50dp"
 			        android:layout_height="50dp"
@@ -92,7 +92,7 @@
 			        android:layout_alignBottom="@+id/circleProgressbar1"
 			        android:layout_alignLeft="@+id/textView3"
 			        android:textSize="10sp"
-			        android:text="这里显示的是解释说明的内容" />
+			        android:text="色泽红润，可以继续保持良好作息" />
 
 			</RelativeLayout>
 			<View 
@@ -107,7 +107,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="match_parent">
 
-			    <com.echo.yanji_view.CircleProgressBar
+			    <com.echo.view.CircleProgressBar
 			        android:id="@+id/circleProgressbar2"
 			        android:layout_width="50dp"
 			        android:layout_height="50dp"
@@ -142,7 +142,7 @@
 			        android:layout_alignBottom="@+id/circleProgressbar2"
 			        android:layout_alignLeft="@+id/textView33"
 			        android:textSize="10sp"
-			        android:text="这里显示的是解释说明的内容" />
+			        android:text="皮肤具有良好质感" />
 
 			</RelativeLayout>
 			<View 
@@ -157,7 +157,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="match_parent">
 
-			    <com.echo.yanji_view.CircleProgressBar
+			    <com.echo.view.CircleProgressBar
 			        android:id="@+id/circleProgressbar3"
 			        android:layout_width="50dp"
 			        android:layout_height="50dp"
@@ -192,7 +192,7 @@
 			        android:layout_alignBottom="@+id/circleProgressbar3"
 			        android:layout_alignLeft="@+id/textView333"
 			        android:textSize="10sp"
-			        android:text="这里显示的是解释说明的内容" />
+			        android:text="温润的肌肤，表现出了您良好的生活习惯" />
 
 			</RelativeLayout>
 			<View 
@@ -207,7 +207,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="match_parent">
 
-			    <com.echo.yanji_view.CircleProgressBar
+			    <com.echo.view.CircleProgressBar
 			        android:id="@+id/circleProgressbar4"
 			        android:layout_width="50dp"
 			        android:layout_height="50dp"
@@ -242,7 +242,7 @@
 			        android:layout_alignBottom="@+id/circleProgressbar4"
 			        android:layout_alignLeft="@+id/textView3333"
 			        android:textSize="10sp"
-			        android:text="这里显示的是解释说明的内容" />
+			        android:text="皮肤光泽良好" />
 
 			</RelativeLayout>
 			<View 
@@ -257,7 +257,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="match_parent">
 
-			    <com.echo.yanji_view.CircleProgressBar
+			    <com.echo.view.CircleProgressBar
 			        android:id="@+id/circleProgressbar5"
 			        android:layout_width="50dp"
 			        android:layout_height="50dp"
@@ -292,7 +292,7 @@
 			        android:layout_alignBottom="@+id/circleProgressbar5"
 			        android:layout_alignLeft="@+id/textView33333"
 			        android:textSize="10sp"
-			        android:text="这里显示的是解释说明的内容" />
+			        android:text="气血旺盛，精力充沛" />
 
 			</RelativeLayout>
 			<View 
@@ -324,4 +324,3 @@
 		/>
 
 </LinearLayout>
-<!-- From: file:/Users/zhuyikun/AndroidStudioProjects/MyApplication/yanji/src/main/res/layout/a8_analyse.xml -->
