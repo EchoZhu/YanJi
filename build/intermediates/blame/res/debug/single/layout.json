@@ -188,6 +188,10 @@
         "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/layout/a2_regist2.xml"
     },
     {
+        "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/layout/pic_view.xml",
+        "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/layout/pic_view.xml"
+    },
+    {
         "merged": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/build/intermediates/res/merged/debug/layout/a10_history.xml",
         "source": "/Users/zhuyikun/hangzhuangyuan-android-employee/yanji_code/src/main/res/layout/a10_history.xml"
     },
